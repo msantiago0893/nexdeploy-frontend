@@ -14,7 +14,7 @@ on:
 env:
   NODE_VERSION: 20
   PROJECT_NAME: nexdeploy-frontend
-  BUILD_PATH: dist/nexdeploy/browser
+  BUILD_PATH: dist/nexdeploy/browser/browser
 
 jobs:
 

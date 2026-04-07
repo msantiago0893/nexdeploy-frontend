@@ -45,6 +45,12 @@ jobs:
         run: |
           echo "/*    /index.html   200" > $BUILD_PATH/_redirects
 
+      - name: Debug build
+        run: |
+          ls -la dist
+          ls -la dist/nexdeploy
+          ls -la dist/nexdeploy/browser
+
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:

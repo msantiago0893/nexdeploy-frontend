@@ -4,5 +4,5 @@
 * Node 18
 
 # Deploy 
-Cloudflare Pages
-Github actions
+* Cloudflare Pages
+* Github actions
